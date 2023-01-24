@@ -8,4 +8,4 @@ except:
  try:
   import TestV2
  except:
-  print('Device Not Support')
+  print('Thanks For Using Tool<3')
