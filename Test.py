@@ -5,7 +5,4 @@ os.system('xdg-open https://facebook.com/groups/3465474777107830/')
 try:
  import TestV1
 except:
- try:
-  import TestV2
- except:
-  print('Thanks For Using Tool<3')
+ import TestV2
