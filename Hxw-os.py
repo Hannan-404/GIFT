@@ -18,17 +18,9 @@ except(ImportError):
     pass
 
 try:
-	a = "anar"
-	t="tt"
-	fileee = os.listdir('/sdcard/Android/data/')
-	if f'com.h{t}pc{a}y.pro' in fileee:
-		print('Delete Http Canary');sys.exit()
+ pass
 except:pass
 
-lm = '/data/data/com.termux/files/usr/lib/python3.11'
-if not 'print' in open(lm+'/site-packages/requests/sessions.py','r').read():
-	pass
-else:sys.exit()
 
 import subprocess
 from bs4 import BeautifulSoup
@@ -45,6 +37,7 @@ def oo(t):
 	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
 
 ###USERAGENTSGEN####
+'''
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
 
 android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
@@ -60,6 +53,7 @@ device = {
          'cr':carr,
          'brand':andd}
 
+'''
 ua = []
 
 import requests
