@@ -31,7 +31,7 @@ loop=0
 ok=0
 
 ua= """
-None
+Paste Your UserAgents Here
 """.splitlines()
 
 def start(id):
